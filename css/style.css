@@ -1,0 +1,1541 @@
+/*==============================================================================
+
+ * Template Name: Multipage Template within 6-12 Pages.
+ * Template URI: 
+ * Author: Abidhossain
+ * Description: Responsive HTML5 Template
+ * Version: 1.0
+ * Copyright 2017 Abidhossain
+
+
+==============================================================================
+    
+    [Table of contents]
+    ===================
+	
+    01. Google Fonts
+    02. Reset CSS (body, link color, section etc)
+    03. Header Section
+    04. Welcome Section
+    05. About Section
+    06. Expreince Section
+    07. Portfolio Section
+    08. Service Section
+    09. HireMe Section
+    10. Testimonial Section
+    11. Blog Section
+    12. Contact Section
+    13. Footer Section
+    14. Temptale Color Panel Section
+
+==============================================================================*/
+*{margin:0 auto;}
+.h-160{
+	height:160px;
+}
+.h-100{
+	height:100px;
+} 
+.h-50{
+	height:50px;
+}
+.h-30{
+	height:45px;
+}
+.h-10{
+	height:10px;
+}
+.margin{
+	margin-top:-41px;
+}
+.banner{
+    background-size: cover;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+	width:100%;
+}
+
+/* =======================================
+    1. Temptale address-nav Section Start
+======================================= */ 
+
+.top-banner-left{
+	float:left;
+	width:40%;
+}
+.top-banner-left ul{
+	padding:0;
+	margin:0;
+}
+.top-banner-left ul li{
+	display:inline-block;
+	color:#fff;
+	font-size:.875em;
+}
+.top-banner {
+    padding: .5em 0;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.23);
+}
+.top-banner-right{
+	float:right;
+}
+.top-banner-right ul{
+	padding:0;
+	margin:0;
+}
+.top-banner-right ul li{
+	display:inline-block;
+	margin:0 1em;
+}
+.top-banner-right ul li:nth-child(4){
+	margin-right:0;
+}
+.top-banner-right ul li a{
+	color:#fff;
+	font-size:1em;
+}
+
+.top-banner-right ul>li>a{
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+}
+.top-banner-right ul>li:hover a{
+	color:#FCB314;
+    transform: rotatey(360deg);
+}
+.search,input[type="search"] {
+    background-color: whitesmoke;
+    -webkit-appearance: none;
+	border-radius:0px !important;
+}
+.fa-search{
+	float:left;
+	font-size:18px;
+	color:#A2A2A2;
+	background:rgba(255,255,255,1.00);
+	margin-left:-25px;
+}
+.navbar-brand {
+   height: auto; 
+    padding: 0; 
+    font-size: 18px; 
+    line-height: 20px;
+}
+.navbar-nav {
+    float: right;
+    margin-top: 2em;
+}
+.navbar-default {
+    border: none;
+    background: none;
+    min-height: auto;
+    margin-bottom: 0;
+}
+div#bs-example-navbar-collapse-1 {
+    padding: 0;
+}
+ul.nav.navbar-nav li a {
+    font-size: .9em;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+ul.nav.navbar-nav li a:hover{
+	color: #FCB314 !important;
+	transition:.3s;
+}
+ul.nav.navbar-nav li a:focus{
+	outline:none;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background:none !important;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+ul.nav.navbar-nav li.active a {
+    color: #ff5722;
+    background: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background:none;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background: none!important;
+}
+.fa-pagelines{
+	color:#88d902;
+}
+.logo{
+    float: left;
+    margin: 1em 0 0 0;
+}
+.logo h1{
+	margin:0;
+}
+.logo h1{
+	margin-top:-20px;
+}
+.logo h1 a{
+	color: #fff;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+} 
+/* =======================================
+    1. Temptale address-nav Section Start
+======================================= */ 
+
+/* =======================================
+    1. Temptale top-nav Section Start
+======================================= */ 
+
+.navbar-fixed-top{
+    background: rgba(0, 0, 0, 0.56);
+}
+.top-nav ul{
+    padding: 0;
+    margin: 0;
+}
+.top-nav ul li{
+    display: inline-block;
+    margin: 0 1em;
+    float: left;
+}
+.top-nav ul li:nth-child(7){
+	margin-right:0;
+}
+ul.nav.navbar-nav {
+	float: right;
+    margin: 2em 0 0 0;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background: none !important;
+    border-right: solid 1px #EFEFEF;
+    box-shadow: 1px 0px 0px 0px rgba(72, 72, 72, 0);
+}
+.top-nav ul li a{
+    color: #fff !important;
+    font-size: .9em;
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+	padding-bottom:25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+	display:block;
+}
+.top-nav ul li a:hover{
+	color: #2196F3 !important;
+}
+.top-nav ul li a.active{
+    color: #2196F3 !important;
+} 
+
+/* =======================================
+    1. Temptale top-nav Section End
+======================================= */ 
+
+
+/* =======================================
+    1. Temptale slider Section Start
+======================================= */ 
+
+.slider {
+	background:url(../img/products/2.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 662px;
+}
+.slider1 {
+    background:url(../img/products/farm.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.slider2 {
+    background:url(../img/products/annie-spratt-61214.jpg) no-repeat 0px 0px;
+    background-size: cover;
+}
+.slider-grid{
+	width: 340px !important;
+    top: 23%;
+    position: absolute;
+    height: 340px;
+    margin: 3em auto 0;
+    text-align: center;
+    border: solid 10px #fff;
+    padding: 6em 0 0 0;
+}
+.slider-grid h3{
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+.slider-grid p{
+	color: #fff;
+    font-size: .9em;
+    width: 84%;
+    margin: 2em auto 0;
+    line-height: 1.8em;
+} 
+/* =======================================
+    1. Temptale slider Section End
+======================================= */ 
+ 
+/* =======================================
+    2. Temptale welcome Section Start
+======================================= */ 
+
+#welcome.col-md-4,p{
+	font-size: 14px;
+	color:#333333;
+}
+#welcome,h2{
+	font-weight:lighter;
+	margin-top:50px;
+	margin-bottom:50px;
+    font-family: 'Merriweather', serif;
+}
+#welcome.col-md-4>i{
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.05), 0 0px 15px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.05), 0 0px 15px 0 rgba(0, 0, 0, 0.09);
+}
+.col-md-4:hover i {
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.2), 0 0px 15px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.2), 0 0px 15px 0 rgba(0, 0, 0, 0.09);
+}
+.wc{
+	float:right;
+	padding:10px 10px;
+}
+.fa.fa-leaf{
+	background-color:#48C24E;
+	height:40px;
+	width:40px;
+	color:#FFF;
+	border-radius:50%;
+	padding:8px 7px;
+}
+.welcome1{ 
+border:1.5px solid #f0f0f0;
+border-top-color:transparent;
+border-left-color:transparent;
+cursor:default;
+}
+.welcome2{
+border:1px solid #f0f0f0;
+border-top-color:transparent;
+cursor:default;
+}
+.welcome3{
+border:1.5px solid #f0f0f0;
+border-top-color:transparent;
+border-right-color:transparent;
+cursor:default;
+}
+.welcome4{ 
+border:1.5px solid #f0f0f0;
+border-top-color:transparent;
+border-left-color:transparent;
+border-bottom-color:transparent;
+cursor:default;
+}
+.welcome5{ 
+border:1px solid #f0f0f0;
+border-top-color:transparent;
+border-bottom-color:transparent;
+cursor:default;
+} 
+.welcome6{ 
+border:1.5px solid #f0f0f0;
+border-top-color:transparent;
+border-right-color:transparent;
+border-bottom-color:transparent;
+cursor:default;
+}
+.welcome-p{
+	text-align:center;
+	font-size:40px;
+	text-shadow: 2px 2px 2px rgba(179, 171, 171, 0.8);
+}
+#welcome h5{
+	color:#48C24E;
+}
+#second-p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #6e6e6f;
+}
+.worker1{
+	height:300px;
+}
+/*--Button Start--*/
+.banner_wthree_agile_info {
+	position: relative;
+	text-align: left;
+}
+
+.wthree_more {
+}
+
+.wthree_more.wthree_more2 {
+	padding: 0;
+}
+
+
+/*--//banner_info --*/
+
+
+/* Shutter In Vertical */
+
+.hvr-shutter-in-vertical {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+	background: #2098D1;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.hvr-shutter-in-vertical:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #fcb314;
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.hvr-shutter-in-vertical:hover,
+.hvr-shutter-in-vertical:focus,
+.hvr-shutter-in-vertical:active {
+	color: white;
+}
+
+.hvr-shutter-in-vertical:hover:before,
+.hvr-shutter-in-vertical:focus:before,
+.hvr-shutter-in-vertical:active:before {
+	-webkit-transform: scaleY(0);
+	transform: scaleY(0);
+}
+
+.more a {
+	padding: 10px 20px;
+	background: #34bf49;
+	color: #FFF;
+	font-weight: 400;
+	border: none;
+	outline: none;
+	letter-spacing: 1px;
+	text-decoration:none;
+}
+
+.more a:hover {
+	background: #34bf49;
+	color: #FFF;
+}
+
+span.glyphicon.glyphicon-arrow-right {
+	margin-left: 5px;
+}
+
+/*Button End*/
+/* =======================================
+    4. Temptale welcome Section End
+======================================= */
+
+
+/* =======================================
+    4. Temptale About Section Start
+======================================= */
+#about{
+    font-family: 'Merriweather', serif;
+}
+.about-head{
+	text-align:center;
+	font-size:40px;
+	font-weight:bolder;
+	color:#535353;
+}
+.about-head2{
+	text-align:center;
+	font-size:40px;
+	font-weight:bolder;
+	border-left:3px solid #FCB315;
+    font-family: 'Merriweather', serif;
+}
+.about-content{
+	text-align:center;
+	color:#FCB315;
+	font-weight:bolder;
+	letter-spacing:2px;
+	font-size:40px;
+}
+.about-image{
+	margin-top:80px;
+}
+#about.col-md-5,p{
+	position:relative;
+	font-size:16px;
+	font-weight:lighter !important;
+}
+#about p:nth-child(6) {
+    color: #FCB315;
+	text-decoration:line-through;
+}
+.icon:before{
+	position:absolute;
+	content:"\f101";
+	font-family:FontAwesome;
+	color:#88D93B;
+	font-size:20px;
+	font-weight:bold;
+}
+.icon>p{
+	float:right;
+}
+.spa{
+	margin-left:20px;
+}
+
+.some-more,row{
+	margin-top:50px;
+	margin-bottom:-9px;
+	background-color:#34BF49;
+	min-height:600px;
+}
+.some-more h2{
+	font-size:46px;
+	font-weight:bolder;
+    color: #fff ;
+	text-shadow: 2px 2px 2px rgba(37, 31, 31, 0.8);
+	text-align:center;
+	transition:.3s;
+}
+.some-more>.col-md-4:hover h4{
+	color:#F7A613;
+	transition:.3s;
+}
+.some-more h6{
+	font-size:26px;
+	color:#F7A613;
+	transition:.3s;
+    font-family: 'Merriweather', serif;
+}
+
+.some-more>.col-md-3:hover .icon-rotate{
+	font-size:26px;
+	color:#F7A613;
+	transition:.3s;
+	transform:rotate(180deg);
+}
+.some-more h4{
+	color:#FFF;
+	font-size:26px;
+	font-weight:bolder;
+}
+.some-more:nth-child(1){
+	text-align:center;
+	letter-spacing:2px;
+	font-size:12px;
+	}
+/* =======================================
+    4. Temptale About Section End
+======================================= */
+
+/* =======================================
+    4. Temptale Service Section Start
+======================================= */
+ #service h2.agile-title{
+	font-size:40px;
+	font-weight:bolder;
+    color: #000 !important;
+	text-align:center;
+	border-left:3px solid #0FDB00;
+    font-family: 'Merriweather', serif;
+}
+#services h2.agile-title{
+	font-size:40px;
+	font-weight:bolder;
+    color: #fff!important;
+	text-align:center;
+	border-left:3px solid #0FDB00;
+    font-family: 'Merriweather', serif;
+}
+.service{
+	padding:10px 10px;
+	margin-bottom:10px;
+}
+.sevices{
+	background:url(../img/products/farm.jpg) no-repeat center fixed;
+	background-size:cover;
+	height:auto;
+} 
+
+.special-item img{
+	width:100%;
+	height:350px;
+	margin-top:-40px;
+	transition:.3s;
+} 
+.special-item img:hover{
+	opacity:.3;
+	transition:.3s;
+} 
+.special-item>h3{
+	text-align:left;
+	font-weight:bolder;
+	font-size:30px;
+}
+.sevices-layouts p.w-text {
+    margin-top: 20px;
+}
+.sevices-layouts-row {
+    margin-top: 20px;
+}
+.sevices-layouts-grids {
+    /* border: 1px solid #fff; */
+    padding: 3em 2em;
+    position: relative;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -o-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    overflow: hidden;
+    text-align: center;
+    background: rgba(9, 9, 9, 0.53);
+}
+.sevices-layouts-grids h5 {
+    font-size: 1.5em;
+    color: #FCB314;
+	text-align:center;
+    letter-spacing: 1px;
+}
+.sevices-layouts-grids p {
+	text-align:center;
+    margin-top: 1em;
+    color: #fff;
+    font-size: .9em;
+}
+.sevices-layouts-row .social-icons {
+    margin: 1em 0 0;
+}
+.sevices-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+	margin-left:10px;
+	margin-bottom:30px;
+	transition: .7s all;
+	-webkit-transition: .7s all;
+	-moz-transition: .7s all;
+	background-color: #88d902 ;
+}
+.sevices-img i {
+    color: #fff;
+    font-size: 4em;
+    margin-top: 35px;
+}
+
+.sevices-layouts-grids:hover div.sevices-img {
+	top:100%;
+}
+ 
+
+/* =======================================
+    4. Temptale Service Section End
+======================================= */
+
+/* =======================================
+    4. Temptale Products Section Start
+======================================= */ 
+
+#products,h5{
+	color:#6E6E6F;
+	text-align:left;
+	letter-spacing:2px;
+    font-family:'Montserrat', sans-serif;
+}
+#products .reting .col-md-3{
+text-align:center;
+font-size:36px;	
+margin-top:70px;
+}
+label{
+	color:#FCB314;
+	font-size:16px;
+	font-weight:bold;
+}
+.gallery-grids{
+    margin-top: 20px;
+}
+.gallery-box {
+    display: block;
+    overflow: hidden;
+    min-width: 100%;
+	transition: .3s;
+}
+.gallery-box img {
+    width: 100%;
+}
+/*-- image-zoom --*/
+img.zoom-img {
+    filter: blur(1.5px);
+    transform: scale(1,1);
+	transition:ease-in-out .5s;
+}
+.zoom-img:hover {
+    filter: blur(0px);
+    transform: scale(2.2);
+	transition:ease-in-out .5s;
+    overflow: hidden;
+}  
+/* =======================================
+    4. Temptale Products Section End
+======================================= */
+
+/* =======================================
+    4. Temptale TeamMember Section Start
+======================================= */
+.about-head{
+	color:#000 !important;
+	font-size:40px;
+	text-align:center;
+	border-left:3px solid #0FDB00;
+    font-family: 'Merriweather', serif;
+}
+.panel-heading{
+    color: #000;
+    background-color: #F4F4F5;
+    padding: 25px;
+	padding-bottom:25px;
+	border-radius:0px;
+	font-size:24px;
+	margin-bottom:20px;
+	text-align:center;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.team.col-md-4{
+	padding-top:25px;
+	height:auto;
+	transition:.3s;
+	position:relative;
+	overflow:hidden;
+	margin-bottom:20px;
+	margin-top:-5px;
+}
+.team.col-md-4:hover{
+	border:.5px solid #2196F3;
+	transition:.3s;
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.team1{
+	display:block;
+	overflow:hidden;
+	position:relative;
+	border-radius:50%;
+	height:300px;
+	width:300px;
+	margin-bottom:10px;
+	z-index:-1;
+}
+.team2{
+	height:150px;
+	width:150px;
+	border-radius:50%;
+	margin-top:-70px;
+	padding-bottom:15px;
+	border:2px solid #FFF;;   
+	 -webkit-box-shadow: -1px 6px 12px -3px rgba(0,0,0,0.62);
+    -moz-box-shadow: -1px 6px 12px -3px rgba(0,0,0,0.62);
+    box-shadow: 1px 6px 12px -3px rgba(0,0,0,0.62);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.t1{
+	color:#fff;
+	text-align:center;
+	padding:50px 10px;
+	font-weight:bold;
+	font-size:14px;
+	transition:.3s; 
+	background-color:#F7A613;
+} 
+.t2{
+	color:#fff;
+	text-align:center;
+	padding:50px 10px;
+	font-weight:bold;
+	font-size:14px;
+	background-color:#2196F3;
+}
+.t3{
+	color:#fff;
+	text-align:center;
+	padding:50px 10px;
+	font-weight:bold;
+	font-size:14px;
+	background-color:#EF1861;
+}
+#team .more a{
+	margin-bottom:20px;
+}
+/*-- Expert Members Daily Works Showing by Slider --*/
+#ExpertMembers,.projects-grids{
+	background-color:#34BF49;
+	height:auto;
+	padding-top:20px;
+	margin-bottom:40px;
+}
+.head-2{
+	color:#FFF !important;
+	font-size:40px;
+	font-weight:bolder;
+	border-left:3px solid #F7A613;
+	text-shadow: 2px 2px 2px rgba(37, 31, 31, 0.8);
+	text-align:center;
+    font-family: 'Merriweather', serif;
+}
+.item.col-md-12{
+	max-height:280px;
+}
+.projects-agile-grid-info{
+    position: relative;
+    overflow: hidden;	
+}
+.projects-agile-grid-info img{
+	width:100%;
+}
+i.fa.fa-cutlery {
+    color: #FFFFFF;
+    font-size: 2em;
+}
+.projects-grid-caption h4 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    background:rgba(0, 0, 0, 0.41);
+    padding: .6em;
+    border: 1px solid #fff;
+    letter-spacing: 3px;
+    width: 50%;
+	margin-top:170px;
+}
+.projects-grid-caption p {
+    color: #fff;
+	text-align:center;
+    font-size: 1.1em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.projects-grid-caption {
+    background: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 0;
+    bottom: -177%;
+    text-align: center;
+    width: 100%;
+    height:430px;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+}
+.projects-agile-grid-info:hover .projects-grid-caption{
+   bottom:0%;
+}
+/*--flexisel--*/
+.flex-slider{	
+	background:#222227;
+	padding: 70px 0 165px 0;
+}
+#flexiselDemo1 {
+	display: none;
+}
+.nbs-flexisel-container {
+	position: relative;
+	max-width: 100%;
+}
+.nbs-flexisel-ul {
+	position: relative;
+	width: 9999px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.nbs-flexisel-inner {
+	overflow: hidden;
+	margin: 0px auto;
+}
+.nbs-flexisel-item {
+	float: left;
+	margin: 0;
+	padding: 0px;
+	position: relative;
+	line-height: 35px;
+}
+.nbs-flexisel-item > img {
+	cursor: pointer;
+	position: relative;
+}
+/*---- Nav ---*/
+.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+	height:16%;
+	width:5%;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    background:url(../img/prev.png) no-repeat -3px 0px #F7A613;
+    border-radius: 0px;
+}
+.nbs-flexisel-nav-left {
+    left:0;
+}
+.nbs-flexisel-nav-right {
+    right: 0;
+    background: url(../img/next.png) no-repeat 21px 0px #F7A613;
+}
+/*-- //flexisel --*/
+/*-- //Expert Members Daily Works Showing by Slider --*/
+/* =======================================
+    4. Temptale TeamMember Section End
+======================================= */
+
+/*-- news --*/
+.news-img{
+    background: url(../img/products/6.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 249px;
+	margin-bottom:20px;
+}
+.news-img1{
+    background: url(../img/products/s2.jpg) no-repeat 0px 0px;
+    background-size: cover;	
+}
+.img2{
+    background: url(../img/products/s2.jpg) no-repeat 0px 0px;
+    background-size: cover;	
+}
+.news-img-info{
+    padding: 56.5px 20px;
+    background: #10DB01;
+	margin-bottom:20px;
+}
+.news-img-info h5 {
+	margin:0;
+	font-size:1em;
+	color:#212121;
+	font-weight:600;
+	text-decoration:none;
+	transition:.3s;
+}
+.news-img-info h5:hover{
+	transition:.3s;
+	color:#FFFFFF;
+}
+.news-img-info p{
+	color:#FFFFFF;
+	font-size:.9em;
+	margin:1em 0;
+	line-height:1.8em;
+}
+.news-img-info h6{
+	margin:0;
+	color:#FFFFFF;
+	font-size:14px;
+}
+/*-- //news end --*/
+/*--table start--*/
+#label{
+	text-align:center;
+	font-size:30px;
+	color:#fff;
+	min-height:80px;
+	padding:20px 10px; 
+	margin-bottom:-1px;
+    background: #FCB314;
+	font-weight:lighter;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+	text-align:center;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: center;
+    padding: 16px;
+	font-weight:bolder;
+}
+
+tr:nth-child(even) {
+	font-weight:bolder;
+    background-color: #FCB314;
+	color:#fff;
+}
+/*--//table end--*/
+/* =======================================
+    4. Temptale Letest News Section Start
+======================================= */
+
+/* =======================================
+    4. Temptale Letest News  Section End
+======================================= */
+
+
+/* =======================================
+    4. Temptale Contact Section Start
+======================================= */
+.footer{
+	margin-top:-2px;
+	background-color:#000;
+	color:#C8C8C8;
+	height:auto;
+	width:100%;
+}
+.con-more{
+	color:#fff; 
+	padding:10px 10px;
+	border-left:3px solid #FCB314;
+	margin:40px 20px;
+}
+.footer ul li {
+	letter-spacing:2px;
+	display:block;
+	margin-top:10px;
+	transition:.3s;
+}
+.footer ul li :hover{
+	color:#FCB314;
+	transition:.3s;
+}
+.footer ul li a{
+	list-style:none;
+	text-decoration:none;
+	color:#CFCFCF;
+}
+.twitter:before{
+	content:'\f099';
+	color:#0078D7;
+	font-size:30px;
+	font-family:FontAwesome;
+	transition:.5s;
+	position:relative
+}
+.contact{
+	margin-bottom: -30px;
+	font-size:50px;
+	font-weight:bolder;
+    color: #000 ;
+	text-align:center;
+	transition:.3s;
+    font-family: 'Merriweather', serif;
+}
+.map,iframe{
+	width:100%;
+	height:420px;
+}
+.con{
+	font-size:36px;
+    color: #fcb314;
+	margin-top:50px;
+    margin-bottom:50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#contact,.address{
+	text-align:left;
+	font-size:14px;
+	font-weight:lighter;
+}
+#contact .ic1::before{
+	font-size:20px;
+	font-family:FontAwesome;
+	content:"\f095";
+	color:#34BF4F;
+}
+#contact .ic2::before{
+	font-size:20px;
+	font-family:FontAwesome;
+	content:"\f07c";
+	color:#34BF4F;
+}
+#contact .ic3::before{
+	font-size:20px;
+	font-family:FontAwesome;
+	content:"\f0c2 ";
+	color:#34BF4F;
+}
+input, select, textarea {
+    width: -webkit-fill-available;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+	font-family:'Roboto', sans-serif;
+}
+input{
+	height:50px;
+	min-width:200px;
+	padding:10px 10px;
+}
+textarea{
+	padding:10px 10px;
+}
+button{
+}
+.submit{
+	width:100px !important;
+	height:50px;
+	color:#fff;
+	margin-left:15px;
+	background-color:#34BF4F;
+	border-color:transparent;
+	transition:.3s;
+}
+.submit:hover{
+	transition:.3s;
+	background-color:#FCB314;
+	border-color:transparent;
+}
+/* =======================================
+    4. Temptale Contact Section End
+======================================= */
+
+
+/* =======================================
+    4. Temptale Footer Section Start
+======================================= */
+.copyright_text_area{
+    display: block;
+	padding-top:20px;
+    overflow: hidden;
+    width: 100%;
+	color:#CFCFCF;
+	text-align:left;
+}
+.single_footer p{
+	color:#CFCFCF;
+	text-align:center;
+}
+.single_footer p i{
+	color:#FCB314;
+	padding:0px 10px;
+}
+.single_footer p a {
+	color:#fff;
+	padding:0px 10px;
+}
+
+.single_footer .footer_socail a{
+	border:1px solid #666;
+	padding:5px;
+	font-size:20px;
+	width:30px;
+	height:30px;
+	display:inline-block;
+	color:#0078D7;
+	background-color:#fff;
+	border-color:#fff;
+	line-height:20px;
+	text-align:center;
+}
+.single_footer .footer_socail a:hover{
+	color:#fff;
+	background-color:#0078D7;
+	border-color:#0078D7;
+	
+}
+/* =======================================
+    4. Temptale Footer Section End
+======================================= */
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/*-- responsive --*/
+@media(max-width:1440px){
+}
+@media(max-width:1080px){ 
+}
+@media(max-width:991px){
+	.logo h1 a {
+    color: #fff;
+    font-size: 29px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    margin-left: -26px;
+}
+ul.nav.navbar-nav li a {
+    font-size: .9em;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-transform: uppercase;
+	margin-top:-10px;
+    padding-bottom: 27px;
+}
+}
+@media(max-width:950){
+	
+.logo h1 a{
+	color: #fff;
+    font-size: 34px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+	margin-left:-30px;
+} 
+}
+@media(max-width:750px){
+.logo h1 a{
+	color: #fff;
+    font-size: 34px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+	margin-left:20px;
+	margin-top:5px !important;
+} 
+	.navbar-brand {
+		float: left;
+	}
+	.navbar-toggle {
+		border: 1px solid rgb(255, 255, 255);
+	}
+	.navbar-toggle .icon-bar {
+		height: 1px;
+		background: #FFF;
+	}
+	.navbar-top {
+		position: relative;
+	}
+	.navbar-nav {
+		float: none;
+		margin: 0;
+		text-align: center;
+	}
+	.navbar-toggle {
+	    margin-top: 1em;
+		margin-right: 0;
+	}
+	div#bs-example-navbar-collapse-1 {
+		position: absolute;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.86);
+		z-index: 9999;
+	}
+	.top-nav ul li {
+		display: block;
+		float: none;
+		margin:1em 0;
+	}
+	ul.nav.navbar-nav {
+		float: none;
+		margin: 0;
+	}
+	.slider {
+		min-height: 620px; 
+	}
+.welcome1{
+	border:none;
+} 
+.welcome2{
+	border:none;
+}
+.welcome3{
+	border:none;
+}
+.welcome3{
+	border:none;
+}
+.welcome4{
+	border:none;
+}
+.welcome5{
+	border:none;
+}
+.welcome6{
+	border:none;
+}
+}
+@media(max-width:667px){
+.welcome1{
+	border:none;
+} 
+.welcome2{
+	border:none;
+}
+.welcome3{
+	border:none;
+}
+.welcome3{
+	border:none;
+}
+.welcome4{
+	border:none;
+}
+.welcome5{
+	border:none;
+}
+.welcome6{
+	border:none;
+}
+	.services-grid-info:after {
+		width: 220px;
+	}
+	.nav-tabs > li {
+		margin: 0 2px;
+	}
+}
+@media(max-width:600px){
+#welcome.col-md-4{
+	border:none;
+} 
+	
+	.services-grid-info:after {
+		width: 190px;
+	}
+	.nav-tabs > li > a {
+		padding: .5em;
+	}.navbar-toggle {
+    margin-top: .5em;
+    margin-right: 0;
+}
+}
+@media(max-width:568px){ 
+.welcome1{
+	border:none;
+} 
+.welcome2{
+	border:none;
+}
+.welcome3{
+	border:none;
+}
+.welcome3{
+	border:none;
+}
+.welcome4{
+	border:none;
+}
+.welcome5{
+	border:none;
+}
+.welcome6{
+	border:none;
+}.navbar-toggle {
+    margin-top: .5em;
+    margin-right: 0;
+}
+}
+@media(max-width:480px){
+.welcome1{
+	border:none;
+} 
+.welcome2{
+	border:none;
+}
+.welcome3{
+	border:none;
+}
+.welcome3{
+	border:none;
+}
+.welcome4{
+	border:none;
+}
+.welcome5{
+	border:none;
+}
+.welcome6{
+	border:none;
+}
+	.slider-grid {
+		width: 230px !important;
+		height: 230px;
+		padding: 3em 0 0 0;
+	}
+	.slider-grid p {
+		width: 90%;
+	}
+	.slider {
+		min-height: 470px;
+	}
+	.slider-grid h3 {
+		font-size: 2em;
+	}
+	.nav-tabs > li {
+		margin: 0 2px 8px;
+	}
+	.nav-tabs {
+		margin: 2em 0;
+	} 
+	.navbar-toggle {
+    margin-top: .5em;
+    margin-right: 0;
+}
+	}
+@media(max-width:414px){ 
+}
+@media(max-width:385px){
+	.slider {
+		min-height: 435px;
+	} 
+	.navbar-toggle {
+	    margin-top: .5em;
+		margin-right: 0;
+	}.logo h1 a {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
+.search, input[type="search"] {
+    background-color: whitesmoke;
+    -webkit-appearance: none;
+    border-radius: 0px !important;
+    margin-left: 32px;
+}
+}
+@media(max-width:320px){
+.search, input[type="search"] {
+    background-color: whitesmoke;
+    -webkit-appearance: none;
+    border-radius: 0px !important;
+	margin-left:3px;
+}
+	.slider-grid {
+		top: 35%;
+		width: 200px !important;
+		height: 200px;
+		padding: 1.5em 0 0 0;
+	}
+	.slider-grid p {
+		margin: 1em auto 0;
+	}
+	.slider-grid {
+		border: solid 5px #fff;
+	}
+	.top-banner-left {
+		 float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.top-banner-right {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin: 1em 0 0 0;
+	}
+	.logo h1 a {
+		font-size: 30px;
+	} 
+}
+/*-- //responsive --*/
